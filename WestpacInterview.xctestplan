@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "7A8D060B-8EDE-46B3-BB3F-205EEF8EF8B0",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:WestpacInterview.xcodeproj",
+        "identifier" : "05F4F8862ACD1A0700627B7D",
+        "name" : "WestpacInterviewTests"
+      }
+    }
+  ],
+  "version" : 1
+}

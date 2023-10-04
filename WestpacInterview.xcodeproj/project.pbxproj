@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F4F87A2ACD1A0600627B7D /* WestpacInterviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4F8792ACD1A0600627B7D /* WestpacInterviewApp.swift */; };
+		05F4F87C2ACD1A0600627B7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4F87B2ACD1A0600627B7D /* ContentView.swift */; };
+		05F4F87E2ACD1A0700627B7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F4F87D2ACD1A0700627B7D /* Assets.xcassets */; };
+		05F4F8822ACD1A0700627B7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F4F8812ACD1A0700627B7D /* Preview Assets.xcassets */; };
+		05F4F88C2ACD1A0700627B7D /* WestpacInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4F88B2ACD1A0700627B7D /* WestpacInterviewTests.swift */; };
+		05F4F8962ACD1A0700627B7D /* WestpacInterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4F8952ACD1A0700627B7D /* WestpacInterviewUITests.swift */; };
+		05F4F8982ACD1A0700627B7D /* WestpacInterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4F8972ACD1A0700627B7D /* WestpacInterviewUITestsLaunchTests.swift */; };
+		05F4F8A82ACD1A2C00627B7D /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4F8A72ACD1A2C00627B7D /* CreditCard.swift */; };
+		05F4F8AD2ACD1A3600627B7D /* NonBankCreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4F8A92ACD1A3600627B7D /* NonBankCreditCardView.swift */; };
+		05F4F8AE2ACD1A3600627B7D /* BankCrediCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4F8AA2ACD1A3600627B7D /* BankCrediCardView.swift */; };
+		05F4F8AF2ACD1A3600627B7D /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4F8AB2ACD1A3600627B7D /* CreditCardView.swift */; };
+		05F4F8B02ACD1A3600627B7D /* HomeLandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4F8AC2ACD1A3600627B7D /* HomeLandingView.swift */; };
+		05F4F8B22ACD1A3C00627B7D /* CreditCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4F8B12ACD1A3C00627B7D /* CreditCardViewModel.swift */; };
+		05F4F8B42ACD1A4500627B7D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4F8B32ACD1A4500627B7D /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05F4F8882ACD1A0700627B7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F4F86E2ACD1A0600627B7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F4F8752ACD1A0600627B7D;
+			remoteInfo = WestpacInterview;
+		};
+		05F4F8922ACD1A0700627B7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F4F86E2ACD1A0600627B7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F4F8752ACD1A0600627B7D;
+			remoteInfo = WestpacInterview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F4F8762ACD1A0600627B7D /* WestpacInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WestpacInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F4F8792ACD1A0600627B7D /* WestpacInterviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestpacInterviewApp.swift; sourceTree = "<group>"; };
+		05F4F87B2ACD1A0600627B7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05F4F87D2ACD1A0700627B7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05F4F87F2ACD1A0700627B7D /* WestpacInterview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WestpacInterview.entitlements; sourceTree = "<group>"; };
+		05F4F8812ACD1A0700627B7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05F4F8872ACD1A0700627B7D /* WestpacInterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WestpacInterviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F4F88B2ACD1A0700627B7D /* WestpacInterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestpacInterviewTests.swift; sourceTree = "<group>"; };
+		05F4F8912ACD1A0700627B7D /* WestpacInterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WestpacInterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F4F8952ACD1A0700627B7D /* WestpacInterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestpacInterviewUITests.swift; sourceTree = "<group>"; };
+		05F4F8972ACD1A0700627B7D /* WestpacInterviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestpacInterviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05F4F8A72ACD1A2C00627B7D /* CreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		05F4F8A92ACD1A3600627B7D /* NonBankCreditCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonBankCreditCardView.swift; sourceTree = "<group>"; };
+		05F4F8AA2ACD1A3600627B7D /* BankCrediCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCrediCardView.swift; sourceTree = "<group>"; };
+		05F4F8AB2ACD1A3600627B7D /* CreditCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
+		05F4F8AC2ACD1A3600627B7D /* HomeLandingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLandingView.swift; sourceTree = "<group>"; };
+		05F4F8B12ACD1A3C00627B7D /* CreditCardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardViewModel.swift; sourceTree = "<group>"; };
+		05F4F8B32ACD1A4500627B7D /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		05F4F8B72ACD1D9B00627B7D /* WestpacInterview.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = file; path = WestpacInterview.xctestplan; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F4F8732ACD1A0600627B7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F4F8842ACD1A0700627B7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F4F88E2ACD1A0700627B7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F4F86D2ACD1A0600627B7D = {
+			isa = PBXGroup;
+			children = (
+				05F4F8782ACD1A0600627B7D /* WestpacInterview */,
+				05F4F88A2ACD1A0700627B7D /* WestpacInterviewTests */,
+				05F4F8942ACD1A0700627B7D /* WestpacInterviewUITests */,
+				05F4F8772ACD1A0600627B7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05F4F8772ACD1A0600627B7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F4F8762ACD1A0600627B7D /* WestpacInterview.app */,
+				05F4F8872ACD1A0700627B7D /* WestpacInterviewTests.xctest */,
+				05F4F8912ACD1A0700627B7D /* WestpacInterviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F4F8782ACD1A0600627B7D /* WestpacInterview */ = {
+			isa = PBXGroup;
+			children = (
+				05F4F8A42ACD1A1500627B7D /* Model */,
+				05F4F8A52ACD1A1B00627B7D /* View */,
+				05F4F8A62ACD1A2500627B7D /* ViewModel */,
+				05F4F8792ACD1A0600627B7D /* WestpacInterviewApp.swift */,
+				05F4F87B2ACD1A0600627B7D /* ContentView.swift */,
+				05F4F8B32ACD1A4500627B7D /* Utils.swift */,
+				05F4F87D2ACD1A0700627B7D /* Assets.xcassets */,
+				05F4F87F2ACD1A0700627B7D /* WestpacInterview.entitlements */,
+				05F4F8802ACD1A0700627B7D /* Preview Content */,
+			);
+			path = WestpacInterview;
+			sourceTree = "<group>";
+		};
+		05F4F8802ACD1A0700627B7D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05F4F8812ACD1A0700627B7D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05F4F88A2ACD1A0700627B7D /* WestpacInterviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				05F4F8B72ACD1D9B00627B7D /* WestpacInterview.xctestplan */,
+				05F4F88B2ACD1A0700627B7D /* WestpacInterviewTests.swift */,
+			);
+			path = WestpacInterviewTests;
+			sourceTree = "<group>";
+		};
+		05F4F8942ACD1A0700627B7D /* WestpacInterviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05F4F8952ACD1A0700627B7D /* WestpacInterviewUITests.swift */,
+				05F4F8972ACD1A0700627B7D /* WestpacInterviewUITestsLaunchTests.swift */,
+			);
+			path = WestpacInterviewUITests;
+			sourceTree = "<group>";
+		};
+		05F4F8A42ACD1A1500627B7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05F4F8A72ACD1A2C00627B7D /* CreditCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		05F4F8A52ACD1A1B00627B7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05F4F8AC2ACD1A3600627B7D /* HomeLandingView.swift */,
+				05F4F8B82ACD201A00627B7D /* CardView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		05F4F8A62ACD1A2500627B7D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				05F4F8B12ACD1A3C00627B7D /* CreditCardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		05F4F8B82ACD201A00627B7D /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				05F4F8AB2ACD1A3600627B7D /* CreditCardView.swift */,
+				05F4F8AA2ACD1A3600627B7D /* BankCrediCardView.swift */,
+				05F4F8A92ACD1A3600627B7D /* NonBankCreditCardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F4F8752ACD1A0600627B7D /* WestpacInterview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F4F89B2ACD1A0700627B7D /* Build configuration list for PBXNativeTarget "WestpacInterview" */;
+			buildPhases = (
+				05F4F8722ACD1A0600627B7D /* Sources */,
+				05F4F8732ACD1A0600627B7D /* Frameworks */,
+				05F4F8742ACD1A0600627B7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WestpacInterview;
+			productName = WestpacInterview;
+			productReference = 05F4F8762ACD1A0600627B7D /* WestpacInterview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05F4F8862ACD1A0700627B7D /* WestpacInterviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F4F89E2ACD1A0700627B7D /* Build configuration list for PBXNativeTarget "WestpacInterviewTests" */;
+			buildPhases = (
+				05F4F8832ACD1A0700627B7D /* Sources */,
+				05F4F8842ACD1A0700627B7D /* Frameworks */,
+				05F4F8852ACD1A0700627B7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F4F8892ACD1A0700627B7D /* PBXTargetDependency */,
+			);
+			name = WestpacInterviewTests;
+			productName = WestpacInterviewTests;
+			productReference = 05F4F8872ACD1A0700627B7D /* WestpacInterviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05F4F8902ACD1A0700627B7D /* WestpacInterviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F4F8A12ACD1A0700627B7D /* Build configuration list for PBXNativeTarget "WestpacInterviewUITests" */;
+			buildPhases = (
+				05F4F88D2ACD1A0700627B7D /* Sources */,
+				05F4F88E2ACD1A0700627B7D /* Frameworks */,
+				05F4F88F2ACD1A0700627B7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F4F8932ACD1A0700627B7D /* PBXTargetDependency */,
+			);
+			name = WestpacInterviewUITests;
+			productName = WestpacInterviewUITests;
+			productReference = 05F4F8912ACD1A0700627B7D /* WestpacInterviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F4F86E2ACD1A0600627B7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					05F4F8752ACD1A0600627B7D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					05F4F8862ACD1A0700627B7D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 05F4F8752ACD1A0600627B7D;
+					};
+					05F4F8902ACD1A0700627B7D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 05F4F8752ACD1A0600627B7D;
+					};
+				};
+			};
+			buildConfigurationList = 05F4F8712ACD1A0600627B7D /* Build configuration list for PBXProject "WestpacInterview" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05F4F86D2ACD1A0600627B7D;
+			productRefGroup = 05F4F8772ACD1A0600627B7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F4F8752ACD1A0600627B7D /* WestpacInterview */,
+				05F4F8862ACD1A0700627B7D /* WestpacInterviewTests */,
+				05F4F8902ACD1A0700627B7D /* WestpacInterviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F4F8742ACD1A0600627B7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F4F8822ACD1A0700627B7D /* Preview Assets.xcassets in Resources */,
+				05F4F87E2ACD1A0700627B7D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F4F8852ACD1A0700627B7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F4F88F2ACD1A0700627B7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F4F8722ACD1A0600627B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F4F8A82ACD1A2C00627B7D /* CreditCard.swift in Sources */,
+				05F4F8AD2ACD1A3600627B7D /* NonBankCreditCardView.swift in Sources */,
+				05F4F8B42ACD1A4500627B7D /* Utils.swift in Sources */,
+				05F4F8AE2ACD1A3600627B7D /* BankCrediCardView.swift in Sources */,
+				05F4F87C2ACD1A0600627B7D /* ContentView.swift in Sources */,
+				05F4F8B02ACD1A3600627B7D /* HomeLandingView.swift in Sources */,
+				05F4F8B22ACD1A3C00627B7D /* CreditCardViewModel.swift in Sources */,
+				05F4F87A2ACD1A0600627B7D /* WestpacInterviewApp.swift in Sources */,
+				05F4F8AF2ACD1A3600627B7D /* CreditCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F4F8832ACD1A0700627B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F4F88C2ACD1A0700627B7D /* WestpacInterviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F4F88D2ACD1A0700627B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F4F8982ACD1A0700627B7D /* WestpacInterviewUITestsLaunchTests.swift in Sources */,
+				05F4F8962ACD1A0700627B7D /* WestpacInterviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05F4F8892ACD1A0700627B7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F4F8752ACD1A0600627B7D /* WestpacInterview */;
+			targetProxy = 05F4F8882ACD1A0700627B7D /* PBXContainerItemProxy */;
+		};
+		05F4F8932ACD1A0700627B7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F4F8752ACD1A0600627B7D /* WestpacInterview */;
+			targetProxy = 05F4F8922ACD1A0700627B7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05F4F8992ACD1A0700627B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05F4F89A2ACD1A0700627B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		05F4F89C2ACD1A0700627B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WestpacInterview/WestpacInterview.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WestpacInterview/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Interview;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguo.westpac.WestpacInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		05F4F89D2ACD1A0700627B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WestpacInterview/WestpacInterview.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WestpacInterview/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Interview;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguo.westpac.WestpacInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		05F4F89F2ACD1A0700627B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguo.westpac.WestpacInterviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WestpacInterview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WestpacInterview";
+			};
+			name = Debug;
+		};
+		05F4F8A02ACD1A0700627B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguo.westpac.WestpacInterviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WestpacInterview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WestpacInterview";
+			};
+			name = Release;
+		};
+		05F4F8A22ACD1A0700627B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguo.westpac.WestpacInterviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WestpacInterview;
+			};
+			name = Debug;
+		};
+		05F4F8A32ACD1A0700627B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguo.westpac.WestpacInterviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WestpacInterview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F4F8712ACD1A0600627B7D /* Build configuration list for PBXProject "WestpacInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F4F8992ACD1A0700627B7D /* Debug */,
+				05F4F89A2ACD1A0700627B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F4F89B2ACD1A0700627B7D /* Build configuration list for PBXNativeTarget "WestpacInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F4F89C2ACD1A0700627B7D /* Debug */,
+				05F4F89D2ACD1A0700627B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F4F89E2ACD1A0700627B7D /* Build configuration list for PBXNativeTarget "WestpacInterviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F4F89F2ACD1A0700627B7D /* Debug */,
+				05F4F8A02ACD1A0700627B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F4F8A12ACD1A0700627B7D /* Build configuration list for PBXNativeTarget "WestpacInterviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F4F8A22ACD1A0700627B7D /* Debug */,
+				05F4F8A32ACD1A0700627B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F4F86E2ACD1A0600627B7D /* Project object */;
+}
